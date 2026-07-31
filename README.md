@@ -2,6 +2,52 @@
 
 用于创作 AI 绘画提示词的 skill。根据角色、动作、构图、环境和风格要求，生成适合不同图像模型的提示词。
 
+## 安装
+
+本 skill 不需要安装额外依赖，只需将仓库克隆到对应的 skills 目录。
+
+### Claude Code
+
+Windows CMD：
+
+```cmd
+git clone https://github.com/1756141021/tag-skill "%USERPROFILE%\.claude\skills\tag"
+```
+
+macOS / Linux：
+
+```bash
+git clone https://github.com/1756141021/tag-skill ~/.claude/skills/tag
+```
+
+安装后可以让 Claude 根据请求自动调用，也可以输入 `/tag` 手动调用。如果 `.claude/skills` 是在当前 Claude Code 会话启动后首次创建的，请重启 Claude Code。
+
+### Pi
+
+Windows CMD：
+
+```cmd
+git clone https://github.com/1756141021/tag-skill "%USERPROFILE%\.pi\agent\skills\tag"
+```
+
+macOS / Linux：
+
+```bash
+git clone https://github.com/1756141021/tag-skill ~/.pi/agent/skills/tag
+```
+
+安装后可以让 Pi 根据请求自动加载，也可以输入 `/skill:tag` 手动调用。
+
+## 可选个性化资料
+
+使用者可以在 `references/` 中按需建立以下文件。它们用于保存个人创作偏好，不是 skill 运行的必需项。
+
+- **OC 外貌库**（`oc-library.md`）：按角色名保存发色、瞳色、发型、体型、种族特征等可见外貌。指定角色后，skill 会提取这些特征并按画面视线路径融入提示词，不会整段照搬模板。
+- **创作上下文**（`context-anchor.md`）：保存希望长期沿用的创作口径、语言习惯和词汇约定。
+- **已用诗句记录**（`used-poems.md`）：记录使用日期、诗句出处和画面简述，用于减少短期内重复使用同一句诗。
+
+没有 OC 库或库中不存在指定角色时，直接在请求中提供角色外貌即可。
+
 ## 来源与致谢
 
 本 skill 的创作方法蒸馏自所长 **戒红所**（`red_relief_reformatory`）的 TAG 法典，在此标注原始方法来源。

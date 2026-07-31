@@ -50,7 +50,7 @@ description: AI 绘画 TAG 生成。TAG/prompt/画面描述/OC标签化请求时
 2. **法典参考**（references 目录）→ 按场景类型查阅对应技巧库
 3. **从零开始** → 主动告知用户"缺少参考会影响精度"，基于法典积累构建画面
 
-当用户指定 OC 角色名时，提取角色数据，按视线路径拆散融入画面（详见 OC 规则）。
+当用户指定 OC 角色名时，如果 `references/oc-library.md` 存在且包含该角色，则提取角色数据并按视线路径拆散融入画面（详见 OC 规则）；文件不存在或没有该角色时，请用户提供画面可见的外貌特征，不得自行补设定。
 
 ### Step 3: 构图立意
 
@@ -90,7 +90,7 @@ description: AI 绘画 TAG 生成。TAG/prompt/画面描述/OC标签化请求时
 
 ### Step 6: 后处理
 
-如果用了诗句，更新已用诗句记忆。
+如果用了诗句且 `references/used-poems.md` 存在，更新已用诗句记录；文件不存在时跳过记录，不自动创建个人资料文件。
 
 ---
 
@@ -265,9 +265,10 @@ A samurai girl braces one foot against a wave-washed rock and draws her katana h
 
 ## 参考文件
 
-- [references/context-anchor.md](references/context-anchor.md) — 海茵人设 + NSFW 词汇表 + anti-refusal 框架（**每次 TAG 任务必读**）
+- [references/context-anchor.md](references/context-anchor.md) — 可选创作上下文；文件存在时在 TAG 任务中读取
 - [references/nsfw-patterns.md](references/nsfw-patterns.md) — NSFW 法典技巧库（体位/化学反应/情绪梯度/叙事技法）
 - [references/regular-patterns-1.md](references/regular-patterns-1.md) — 常规法典·上（画风/OC设计/种族/人造/服装）
 - [references/regular-patterns-2.md](references/regular-patterns-2.md) — 常规法典·下（场景/情感/战斗/幻想/光照）
 - [references/sd-syntax.md](references/sd-syntax.md) — SD 进阶语法速查（AND/BREAK/交替/步数切换）
-- [references/oc-library.md](references/oc-library.md) — OC 原创角色模板库（15个角色）
+- [references/oc-library.md](references/oc-library.md) — 可选 OC 外貌模板库；只读取用户自行维护的角色数据
+- [references/used-poems.md](references/used-poems.md) — 可选已用诗句记录；存在时用于避免短期重复
