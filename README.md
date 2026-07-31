@@ -43,8 +43,6 @@ tag/
 └─ references/              # 通用创作方法与语法参考
 ```
 
-本地个人创作资料由 `.gitignore` 排除，不进入 Git。
-
 ## License
 
 本仓库采用 [MIT License](LICENSE)。来源法典及来源作者原有内容的权利归原作者所有。
