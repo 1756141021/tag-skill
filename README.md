@@ -32,11 +32,72 @@
 
 > 目前尚未对 Anima 和 Krea 2 进行专门研究。以上内容只记录现阶段约定的输出格式，不代表针对模型特性完成了系统验证或优化。
 
+## 创作结果
+
+以下四组结果均先从参考图片反推角色外貌，再由 skill 在保留角色辨识特征的基础上自由设计动作、构图、场景和色彩方案。
+
+### 1. 紫水晶与墨色双翼
+
+<img src="examples/01-violet-crystal.png" alt="黑发王冠少女捧着紫水晶，墨色双翼在身后展开" width="480">
+
+<details>
+<summary>查看提示词</summary>
+
+```text
+A crowned black-haired girl crushes a violet crystal between her palms, and its light erupts into two enormous ink-black wings as her hair lashes outward,
+1.5::shattering violet crystal, black liquid wings bursting from her back, overwhelming magical pressure, figure filling the frame::, {{ink black, paper white, electric violet and smoke gray theme}}, 1girl, solo, pale skin, very long black hair, straight bangs, glowing purple eyes, silver crystal crown, cold focused expression, ornate white ceremonial dress, high ruffled collar, puff sleeves, fitted black waist, silver jewelry, hands together, violet flame, crystal fragments, sweeping hair, black ink splashes, floating dark petals, stark white background, strong symmetrical composition, monochrome with selective purple, rough ink texture, high-contrast anime illustration, -2::text, logo, watermark::
+```
+
+</details>
+
+### 2. 冰上转身
+
+<img src="examples/02-ice-skater.png" alt="金发兽耳少女在室内冰面高速转身" width="480">
+
+<details>
+<summary>查看提示词</summary>
+
+```text
+A blonde animal-eared girl carves a sharp turn across an indoor ice rink, extending one arm as her long braid, teal ribbons, and a fan of ice spray sweep behind her,
+1.45::one-foot skating turn, body leaning into the curve, clean extended pose, explosive ice spray::, {{cream white, deep teal, ice blue and pale gold theme}}, 1girl, solo, blonde hair, very long hair, thick side braid, long sidelocks, animal ears, cream inner ear fur, aqua eyes, white pupils, blue stitch marks across nose bridge, small pout, teal maid headband, teal neck bow, gemstone brooch, teal and white skating dress, fitted bodice, frilled collar, layered skirt, white tights, teal ice skates, indoor ice rink, curved skate marks, glossy ice reflections, floating ice particles, overhead spotlights, blurred railing, dynamic anime illustration
+```
+
+</details>
+
+### 3. 红幕登场
+
+<img src="examples/03-crimson-curtain-maid.png" alt="猫耳恶魔女仆拉开红色舞台帷幕" width="480">
+
+<details>
+<summary>查看提示词</summary>
+
+```text
+A cat-eared demon maid throws open two heavy crimson curtains and steps onto the stage, her long twintails, ribbons, and layered skirt flaring outward in the sudden light,
+1.45::both hands pulling the curtains apart, dramatic entrance, strong forward step, clean flowing silhouette::, {{charcoal black, porcelain white, crimson red and icy blue theme}}, 1girl, solo, petite, dark purple hair, very long twintails, curled hair ends, red inner hair, blunt bangs, gray eyes, blush, black cat ears, pink inner ears, blue flower hair ornament, black and red hair ribbons, white maid headband, black choker, black and white maid dress, corset bodice, puff sleeves, long black gloves, layered frilled skirt, white thighhighs, garter straps, black shoes, small white bat wings, black spade-tipped tail, red tail bow, crimson theater curtains, wooden stage, warm footlights, dark simple background, dynamic anime illustration
+```
+
+</details>
+
+### 4. 敦煌飞袖
+
+<img src="examples/04-dunhuang-hanfu.png" alt="酒红发女性身着敦煌风汉服，透明衣袖与红色飘带掠过镜头" width="480">
+
+<details>
+<summary>查看提示词</summary>
+
+```text
+A burgundy-haired woman twists toward the viewer, lifting a translucent sleeve across her mouth as her braid and red ribbons sweep past the lens,
+1.5::close-up, figure filling the frame, strong body twist, flowing sleeve in foreground::, {{cinnabar red, azurite blue, ivory and antique gold theme}}, 1girl, solo, burgundy hair, very long loose braid, asymmetric bangs, hair behind ear, yellow eyes, white pupils, tsurime, 1.3::red eyeshadow::, skin fang, black stud earrings, flat chest, intense gaze, Dunhuang-inspired hanfu, translucent wide sleeves, red cross-collar bodice, deep blue embroidered skirt, gold jewelry, red flying ribbons, tilted composition, slight low angle, luminous silk, dark simple background
+```
+
+</details>
+
 ## 文件结构
 
 ```text
 tag/
 ├─ assets/                  # 来源图片
+├─ examples/                # 创作结果
 ├─ LICENSE                  # MIT License
 ├─ SKILL.md                 # Skill 规则与工作流程
 ├─ README.md                # 项目与格式说明
