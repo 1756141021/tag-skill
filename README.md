@@ -1,5 +1,7 @@
 # TAG
 
+[简体中文](README.md) | [English](README.en.md) | [한국어](README.ko.md) | [Русский](README.ru.md)
+
 用于创作 AI 绘画提示词的 skill。根据角色、动作、构图、环境和风格要求，生成适合不同图像模型的提示词。
 
 喜欢可以点点星星
@@ -148,7 +150,10 @@ tag/
 ├─ examples/                # 创作结果
 ├─ LICENSE                  # MIT License
 ├─ SKILL.md                 # Skill 规则与工作流程
-├─ README.md                # 项目与格式说明
+├─ README.md                # 中文项目与格式说明
+├─ README.en.md             # English README
+├─ README.ko.md             # 한국어 README
+├─ README.ru.md             # Русский README
 └─ references/              # 通用创作方法与语法参考
 ```
 
