@@ -50,7 +50,7 @@ git clone https://github.com/1756141021/tag-skill ~/.pi/agent/skills/tag
 
 ## 来源与致谢
 
-本 skill 的创作方法蒸馏自所长 **戒红所**（`red_relief_reformatory`）的 TAG 法典，在此标注原始方法来源。
+本 skill 的创作方法蒸馏自所长 **戒红所**（`red_relief_reformatory`）的 TAG 法典并加入了作者的些许promot理解与小巧思，在此标注原始方法来源。
 
 ![来源作者：戒红所](assets/source-author.png)
 
