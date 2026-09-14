@@ -42,6 +42,14 @@ git clone https://github.com/1756141021/tag-skill ~/.pi/agent/skills/tag
 
 安装后可以让 Pi 根据请求自动加载，也可以输入 `/skill:tag` 手动调用。
 
+## 创作与精修
+
+默认先走创作流程，保留主动构思画面的能力。初稿不满意、出图偏差大，或需要整理旧串、只改局部、调整构图和防串特征时，才加载精修模块。明确要求重新自由创作时回到创作流程，不把两套默认规则同时套用。
+
+`SKILL.md` 只保留轻量入口和读取路由。平台语法、多人、文字、海报与技法放在 `references/`，按当前任务读取；知识库先检索，再取命中条目，不全量注入上下文。无需为此安装检索服务或新增运行框架。
+
+精修模块吸收新增 `message (31).txt` 的 NAI 编译规则，不引入开头与 TAG 无关的小说/角色扮演执行政策。知识库来自 `08_knowledge_base (1).rar`，保留六类目录与原始数据；来源表、经验描述及数据局限沿用库内说明，不视为官方实时规格或已验证的渲染效果。
+
 ## 可选个性化资料
 
 使用者可以在 `references/` 中按需建立以下文件。它们用于保存个人创作偏好，不是 skill 运行的必需项。
@@ -51,6 +59,10 @@ git clone https://github.com/1756141021/tag-skill ~/.pi/agent/skills/tag
 - **已用诗句记录**（`used-poems.md`）：记录使用日期、诗句出处和画面简述，用于减少短期内重复使用同一句诗。
 
 没有 OC 库或库中不存在指定角色时，直接在请求中提供角色外貌即可。
+
+## 更新记录
+
+本版使用 astra 对 skill 做了精简：`SKILL.md` 收敛为轻量入口和按需读取路由，平台语法、多人、文字、海报与技法移入 `references/` 各自模块，按当前任务读取。同时揉合了 grievance 的部分 skill 内容，并新增 `knowledge-base/` 冻结资料，先检索再取命中条目。
 
 ## 来源与致谢
 
@@ -70,7 +82,7 @@ git clone https://github.com/1756141021/tag-skill ~/.pi/agent/skills/tag
 
 ### NovelAI（NAI）
 
-使用英文自然语言动作描述配合 Danbooru TAG，并转换为 NovelAI 权重语法，例如 `{tag}`、`1.2::tag::` 和 `[tag]`。
+使用英文自然语言动作描述配合 Danbooru TAG，并转换为 NovelAI 权重语法，例如 `{tag}`、`1.2::tag::` 和 `[tag]`。精修已有提示词时优先保留其有效结构；用户要求纯 TAG 时按要求处理。
 
 ### Anima
 
@@ -78,7 +90,9 @@ git clone https://github.com/1756141021/tag-skill ~/.pi/agent/skills/tag
 
 ### Krea 2
 
-使用 **全中文自然语言**，完整描述主体、动作、姿势、构图、环境、光线和画面风格，不使用 Danbooru TAG 或权重语法。
+普通插画使用 **全中文自然语言**，完整描述主体、动作、姿势、构图、环境、光线和画面风格，不使用 Danbooru TAG 或权重语法。
+
+只有明确指定 Krea 2 图文海报时，才切换到分段的纯英文提示词正文，不加代码围栏或解释；其他平台的海报不启用这个模式。
 
 > 目前尚未对 Anima 和 Krea 2 进行专门研究。以上内容只记录现阶段约定的输出格式，不代表针对模型特性完成了系统验证或优化。
 
@@ -149,14 +163,15 @@ tag/
 ├─ assets/                  # 来源图片
 ├─ examples/                # 创作结果
 ├─ LICENSE                  # MIT License
-├─ SKILL.md                 # Skill 规则与工作流程
+├─ SKILL.md                 # 轻量入口：选择创作/精修，按需路由
 ├─ README.md                # 中文项目与格式说明
 ├─ README.en.md             # English README
 ├─ README.ko.md             # 한국어 README
 ├─ README.ru.md             # Русский README
-└─ references/              # 通用创作方法与语法参考
+├─ references/              # 创作、精修、平台与主题模块，按需读取
+└─ knowledge-base/          # 冻结资料：角色、标签、NAI 手册等，检索后取条目
 ```
 
 ## License
 
-本仓库采用 [MIT License](LICENSE)。来源法典及来源作者原有内容的权利归原作者所有。
+本仓库采用 [MIT License](LICENSE)。来源法典及来源作者原有内容的权利归原作者所有。导入知识库不改变其来源资料的权利与许可状态。

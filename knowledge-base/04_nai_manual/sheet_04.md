@@ -1,0 +1,305 @@
+---
+doc_type: nai_manual_sheet
+dataset_version: 1.0.0
+schema_version: 1.0.0
+database_content_signature: 6477e0baa7c416a2a5f2bca0272f1223a6f33aceeb20a29bb621e3c1ccd96c32
+sheet_name: 特殊人物特征
+record_count: 56
+source_files:
+- 00_input/nai_tag_manual.xlsx
+---
+
+# NAI 手册 · 特殊人物特征
+
+> 来源：00_input/nai_tag_manual.xlsx · 工作表「特殊人物特征」｜共 56 条｜数据集 v1.0.0
+
+### 分组：▸ 萌点（Moe Points）
+
+- **fangs**  <sub>行 4</sub>
+  - 中文含义：虎牙（单根）
+  - 类型：萌点
+  - 说明：上排一颗牙齿突出
+  - 常见组合：smile / open mouth
+- **yaeba**  <sub>行 5</sub>
+  - 中文含义：八重齿（双虎牙）
+  - 类型：萌点
+  - 说明：上排两侧各一颗突出，比fang更精确
+  - 常见组合：smile / cute
+- **vampire fangs**  <sub>行 6</sub>
+  - 中文含义：吸血鬼尖牙
+  - 类型：萌点
+  - 说明：两颗细长尖牙，比yaeba更尖更长
+  - 常见组合：vampire / gothic
+- **beauty mark**  <sub>行 7</sub>
+  - 中文含义：美人痣
+  - 类型：萌点
+  - 说明：脸部特定位置的黑痣
+  - 常见组合：指定位置：under eye / corner of mouth
+- **mole under eye**  <sub>行 8</sub>
+  - 中文含义：眼下痣
+  - 类型：萌点
+  - 说明：眼角下方的痣
+  - 常见组合：beauty mark / mature
+- **freckles**  <sub>行 9</sub>
+  - 中文含义：雀斑
+  - 类型：萌点
+  - 说明：鼻梁两侧散布的小点
+  - 常见组合：cute / natural
+- **blush stickers**  <sub>行 10</sub>
+  - 中文含义：腮红贴纸
+  - 类型：萌点
+  - 说明：脸颊有装饰性圆形腮红（非真实红晕）
+  - 常见组合：cute / chibi
+- **blush lines**  <sub>行 11</sub>
+  - 中文含义：脸部横线
+  - 类型：萌点
+  - 说明：脸颊有几条横线（漫画表现手法）
+  - 常见组合：embarrassed / cute
+- **forehead mark**  <sub>行 12</sub>
+  - 中文含义：额记
+  - 类型：萌点
+  - 说明：额头有特定符号/图案
+  - 常见组合：fantasy / tribal
+- **heterochromia**  <sub>行 13</sub>
+  - 中文含义：异色瞳
+  - 类型：萌点
+  - 说明：左右眼颜色不同
+  - 常见组合：special / fate
+### 分组：▸ 兽耳与尾巴
+
+- **cat ears**  <sub>行 15</sub>
+  - 中文含义：猫耳
+  - 类型：兽耳
+  - 说明：头顶有猫的耳朵
+  - 常见组合：nekomimi / cat girl
+- **dog ears**  <sub>行 16</sub>
+  - 中文含义：狗耳
+  - 类型：兽耳
+  - 说明：头顶有狗的耳朵（下垂或竖立）
+  - 常见组合：inu / dog girl
+- **fox ears**  <sub>行 17</sub>
+  - 中文含义：狐耳
+  - 类型：兽耳
+  - 说明：尖而偏长的狐狸耳
+  - 常见组合：kitsune / fox girl
+- **rabbit ears**  <sub>行 18</sub>
+  - 中文含义：兔耳
+  - 类型：兽耳
+  - 说明：长而细的兔子耳朵
+  - 常见组合：bunny girl / cute
+- **wolf ears**  <sub>行 19</sub>
+  - 中文含义：狼耳
+  - 类型：兽耳
+  - 说明：比狗耳更尖更大
+  - 常见组合：wolf girl
+- **dragon horns**  <sub>行 20</sub>
+  - 中文含义：龙角
+  - 类型：角
+  - 说明：头部有龙的角
+  - 常见组合：dragon / fantasy
+- **demon horns**  <sub>行 21</sub>
+  - 中文含义：恶魔角
+  - 类型：角
+  - 说明：两侧有弯曲角
+  - 常见组合：demon / dark fantasy
+- **oni horns**  <sub>行 22</sub>
+  - 中文含义：鬼角
+  - 类型：角
+  - 说明：日式恶鬼的短粗角
+  - 常见组合：oni / japanese mythology
+- **cat tail**  <sub>行 23</sub>
+  - 中文含义：猫尾
+  - 类型：尾巴
+  - 说明：细而有弯曲的猫尾
+  - 常见组合：cat girl
+- **fox tail**  <sub>行 24</sub>
+  - 中文含义：狐尾
+  - 类型：尾巴
+  - 说明：蓬松的狐狸尾巴（可多条）
+  - 常见组合：kitsune
+- **multiple tails**  <sub>行 25</sub>
+  - 中文含义：多尾
+  - 类型：尾巴
+  - 说明：有两条以上尾巴（通常3/9条）
+  - 常见组合：kitsune九尾
+- **dragon tail**  <sub>行 26</sub>
+  - 中文含义：龙尾
+  - 类型：尾巴
+  - 说明：有鳞片的长龙尾
+  - 常见组合：dragon
+- **wings**  <sub>行 27</sub>
+  - 中文含义：翅膀（通用）
+  - 类型：翅膀
+  - 说明：背后有翅膀
+  - 常见组合：angel / demon / bird
+- **angel wings**  <sub>行 28</sub>
+  - 中文含义：天使翅膀
+  - 类型：翅膀
+  - 说明：白色羽毛翅膀
+  - 常见组合：angel / holy
+- **demon wings**  <sub>行 29</sub>
+  - 中文含义：恶魔翅膀
+  - 类型：翅膀
+  - 说明：蝙蝠状翅膀
+  - 常见组合：demon / dark
+- **dragon wings**  <sub>行 30</sub>
+  - 中文含义：龙翼
+  - 类型：翅膀
+  - 说明：膜翅，有骨骼结构
+  - 常见组合：dragon
+### 分组：▸ 特殊身体/皮肤特征
+
+- **pointed ears**  <sub>行 32</sub>
+  - 中文含义：尖耳朵
+  - 类型：耳朵
+  - 说明：耳尖较尖（精灵耳）
+  - 常见组合：elf / fantasy
+- **long ears**  <sub>行 33</sub>
+  - 中文含义：长耳朵
+  - 类型：耳朵
+  - 说明：耳朵异常细长
+  - 常见组合：elf / fantasy
+- **scales**  <sub>行 34</sub>
+  - 中文含义：鳞片
+  - 类型：皮肤
+  - 说明：皮肤上有鱼/龙鳞
+  - 常见组合：dragon / mermaid
+- **markings**  <sub>行 35</sub>
+  - 中文含义：纹样
+  - 类型：皮肤
+  - 说明：皮肤上有图案纹路
+  - 常见组合：tribal / fantasy
+- **tattoo**  <sub>行 36</sub>
+  - 中文含义：纹身
+  - 类型：皮肤
+  - 说明：皮肤有纹身图案
+  - 常见组合：指定位置/图案
+- **scar**  <sub>行 37</sub>
+  - 中文含义：疤痕
+  - 类型：皮肤
+  - 说明：有伤疤
+  - 常见组合：battle damage / veteran
+- **pale skin**  <sub>行 38</sub>
+  - 中文含义：白皙皮肤
+  - 类型：肤色
+  - 说明：皮肤非常白
+  - 常见组合：goth / elf / vampire
+- **dark skin**  <sub>行 39</sub>
+  - 中文含义：深色皮肤
+  - 类型：肤色
+  - 说明：皮肤颜色深
+  - 常见组合：ethnic / tan
+- **tan skin**  <sub>行 40</sub>
+  - 中文含义：小麦肤色
+  - 类型：肤色
+  - 说明：晒黑的自然肤色
+  - 常见组合：summer / athletic
+- **multicolored skin**  <sub>行 41</sub>
+  - 中文含义：多色皮肤
+  - 类型：肤色
+  - 说明：皮肤有多种颜色（幻想种族）
+  - 常见组合：fantasy creature
+### 分组：▸ 体型标签
+
+- **petite**  <sub>行 43</sub>
+  - 中文含义：娇小
+  - 类型：体型
+  - 说明：整体偏小偏瘦
+  - 常见组合：cute / loli adjacent
+- **tall**  <sub>行 44</sub>
+  - 中文含义：高挑
+  - 类型：体型
+  - 说明：身材较高
+  - 常见组合：model / mature
+- **athletic build**  <sub>行 45</sub>
+  - 中文含义：运动体型
+  - 类型：体型
+  - 说明：肌肉感明显但不夸张
+  - 常见组合：action / sport
+- **slender**  <sub>行 46</sub>
+  - 中文含义：纤细
+  - 类型：体型
+  - 说明：四肢纤长，整体瘦长
+  - 常见组合：elegant / model
+- **curvy**  <sub>行 47</sub>
+  - 中文含义：曲线
+  - 类型：体型
+  - 说明：腰臀曲线明显
+  - 常见组合：mature / feminine
+- **chibi**  <sub>行 48</sub>
+  - 中文含义：Q版/小人
+  - 类型：体型
+  - 说明：头身比约1:2-1:3，极度Q版
+  - 常见组合：cute / comedy
+- **deformed (chibi)**  <sub>行 49</sub>
+  - 中文含义：变形Q版
+  - 类型：体型
+  - 说明：正常比例转Q版的过渡风格
+  - 常见组合：动漫周边风
+### 分组：▸ 头饰与配件
+
+- **hair ornament**  <sub>行 51</sub>
+  - 中文含义：发饰（通用）
+  - 类型：配件
+  - 说明：头发上有装饰物
+  - 常见组合：指定具体类型
+- **hair ribbon**  <sub>行 52</sub>
+  - 中文含义：发带
+  - 类型：配件
+  - 说明：头发上绑着丝带
+  - 常见组合：cute / elegant
+- **hair bow**  <sub>行 53</sub>
+  - 中文含义：蝴蝶结发夹
+  - 类型：配件
+  - 说明：头发上有蝴蝶结
+  - 常见组合：lolita / cute
+- **hairpin**  <sub>行 54</sub>
+  - 中文含义：发夹
+  - 类型：配件
+  - 说明：小型固定发夹
+  - 常见组合：日常/清新
+- **hair flower**  <sub>行 55</sub>
+  - 中文含义：发花
+  - 类型：配件
+  - 说明：头发上有花朵装饰
+  - 常见组合：floral / feminine
+- **hair clip**  <sub>行 56</sub>
+  - 中文含义：发卡
+  - 类型：配件
+  - 说明：各式发卡
+  - 常见组合：日常
+- **headband**  <sub>行 57</sub>
+  - 中文含义：发箍
+  - 类型：配件
+  - 说明：绕头一圈的发箍
+  - 常见组合：cute / preppy
+- **tiara**  <sub>行 58</sub>
+  - 中文含义：小皇冠
+  - 类型：配件
+  - 说明：额前的装饰性小冠
+  - 常见组合：princess / royalty
+- **crown**  <sub>行 59</sub>
+  - 中文含义：皇冠
+  - 类型：配件
+  - 说明：完整皇冠
+  - 常见组合：queen / king
+- **witch hat**  <sub>行 60</sub>
+  - 中文含义：女巫帽
+  - 类型：配件
+  - 说明：尖顶宽檐帽
+  - 常见组合：witch / magic
+- **beret**  <sub>行 61</sub>
+  - 中文含义：贝雷帽
+  - 类型：配件
+  - 说明：法式扁平帽
+  - 常见组合：artistic / cute
+- **cat ear headband**  <sub>行 62</sub>
+  - 中文含义：猫耳发箍
+  - 类型：配件
+  - 说明：猫耳形状的发箍（非真实兽耳）
+  - 常见组合：cosplay / cute
+- **horns (accessory)**  <sub>行 63</sub>
+  - 中文含义：角形头饰（非真实角）
+  - 类型：配件
+  - 说明：角造型的装饰物
+  - 常见组合：costume
