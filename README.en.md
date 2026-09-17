@@ -48,7 +48,6 @@ Users can create the following files in `references/` as needed. They store pers
 
 - **OC appearance library** (`oc-library.md`): Stores visible features such as hair color, eye color, hairstyle, body type, and species traits by character name. When you specify a character, the skill extracts these features and integrates them into the prompt according to the image's visual flow instead of copying the template wholesale.
 - **Creative context** (`context-anchor.md`): Stores creative conventions, language habits, and vocabulary preferences that you want to use over the long term.
-- **Used poem lines record** (`used-poems.md`): Records the date of use, the source of each poem line, and a brief description of the image to reduce short-term reuse of the same line.
 
 When you do not have an OC library, or the specified character is not in the library, provide the character's appearance directly in your request.
 
