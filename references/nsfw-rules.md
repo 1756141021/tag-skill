@@ -5,7 +5,7 @@
 ### NSFW 规则
 
 - 器官暴露即标注，性行为写完整：动作 tag + 双方器官
-- **男性默认隐形**：disembodied penis / invisible man 代替 1boy。只在叙事必须有男性身体时用 faceless male
+- **男性默认 faceless male**：用 `1boy, hetero, faceless male` 承载接触与受力，配 `head out of frame` 裁掉他的头，并在自然语言里写死“他的头在画框外、女角的脸留在画框内”。只在画面必须完全没有男性身体时，才退到 disembodied penis / invisible man
 - **半遮半掩的张力胜过全裸**——torn clothes / panties aside / see-through 比 nude 更有戏剧性
 - 场景重交互轻背景
 

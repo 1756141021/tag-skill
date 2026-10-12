@@ -53,9 +53,10 @@ price list on wall = 场景中的羞辱性信息
 - maid headdress + naked apron + nude = 裸体女仆
 公式化思维，可以套用到任何职业。
 
-### 隐形伙伴光谱
-男性存在感是一个滑块，不是开关：
-1boy（全身）- faceless male（去脸）- disembodied penis（仅器官）- invisible man（暗示）- solo focus（纯女性）
+### 男性存在感光谱
+男性存在感是一个滑块，不是开关。**默认 faceless male**
+faceless male（默认）- 1boy（需要他的表情或全身互动）- disembodied penis（仅器官）- invisible man（暗示有人在场）- solo focus（纯女性画面）
+越往右，男性占的视觉权重越低、镜头越集中在女角脸上；往左推会抢画面资源，1boy 还会让模型去补一张完整男性的脸。
 
 ---
 
