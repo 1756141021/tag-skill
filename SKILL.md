@@ -59,7 +59,7 @@ A samurai girl braces one foot against a wave-washed rock and draws her katana h
 | 明确指定 Krea 2 普通插画 | [Krea 2](references/krea.md) |
 | 明确指定 Krea 2 图文海报 | [Krea 2 海报](references/krea-poster.md)，不套普通插画格式 |
 | 需要核对指定 OC/IP 的身份、外貌或触发词 | [角色处理](references/characters.md)；只取指定角色 |
-| 需要查角色触发词、标签或手册条目 | [知识库检索](references/knowledge-base.md)；先检索，再读命中片段 |
+| 需要 NAI 手册条目（介质感、光影、色彩、人设 TAG、画师串） | [知识库检索](references/knowledge-base.md)；先检索，再读命中片段 |
 | 需要画风、角色设计、种族、服装技法 | [常规参考·上](references/regular-patterns-1.md)的相关小节 |
 | 需要场景、情绪、战斗、幻想、光照技法 | [常规参考·下](references/regular-patterns-2.md)的相关小节 |
 | 当前成人题材确需原有专门参考 | [原规则](references/nsfw-rules.md)及 [技巧库](references/nsfw-patterns.md)的相关小节；普通任务不读 |
