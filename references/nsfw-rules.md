@@ -5,9 +5,10 @@
 ### NSFW 规则
 
 - 器官暴露即标注，性行为写完整：动作 tag + 双方器官
-- **男性默认 faceless male**：用 `1boy, hetero, faceless male` 承载接触与受力，配 `head out of frame` 裁掉他的头，并在自然语言里写死“他的头在画框外、女角的脸留在画框内”。只在画面必须完全没有男性身体时，才退到 disembodied penis / invisible man
+- **男性默认不露脸，但不要写 `faceless`**：`faceless` 会让模型额外补一张脸出来。改用 `1boy, hetero` 加 `head out of frame` 裁掉他的头，并在自然语言里写死“他的头在画框外、女角的脸留在画框内”，由他来承载接触与受力。只在画面必须完全没有男性身体时，才退到 `disembodied penis` / `invisible man`
 - **半遮半掩的张力胜过全裸**——torn clothes / panties aside / see-through 比 nude 更有戏剧性
-- 场景重交互轻背景
+- **NSFW 默认近景，角色占画面主体**：镜头贴着角色（`close-up` / `upper body`），不为交代场景把镜头拉远
+- **背景默认简化，不默认清空**：`plain background` / `simple background` 是省事选项；需要交代情境时留一到两个元素（一扇窗、一张床沿、一片墙），不堆陈设、不写灯光装置
 
 ### 创作中的六种意识
 

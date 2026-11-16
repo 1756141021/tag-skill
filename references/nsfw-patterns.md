@@ -54,9 +54,10 @@ price list on wall = 场景中的羞辱性信息
 公式化思维，可以套用到任何职业。
 
 ### 男性存在感光谱
-男性存在感是一个滑块，不是开关。**默认 faceless male**
-faceless male（默认）- 1boy（需要他的表情或全身互动）- disembodied penis（仅器官）- invisible man（暗示有人在场）- solo focus（纯女性画面）
-越往右，男性占的视觉权重越低、镜头越集中在女角脸上；往左推会抢画面资源，1boy 还会让模型去补一张完整男性的脸。
+男性存在感是一个滑块，不是开关。**默认不露脸，但不写 `faceless`**——该词会让模型额外补画一张脸。
+裁切法（推荐）：`1boy, hetero` + `head out of frame`，自然语言写死“他的头在画框外、女角的脸留在画框内”。
+再退一步：disembodied penis（仅器官）- invisible man（暗示有人在场）- solo focus（纯女性画面）
+越往右，男性占的视觉权重越低、镜头越集中在女角脸上。
 
 ---
 
